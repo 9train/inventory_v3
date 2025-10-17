@@ -1,0 +1,18 @@
+{
+  "name": "slack-laptop-inventory-bot",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --env-file=.env src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.17.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "googleapis": "^127.0.0",
+    "luxon": "^3.5.0"
+  }
+}
